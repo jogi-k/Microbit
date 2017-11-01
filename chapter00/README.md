@@ -10,7 +10,7 @@ Pay attention to one thing: on the other side of the installer called "Customize
 
 ![screenshot] [snapshot]
 
-[snapshot]: img/1.png "screenshot"
+![screenshot]: img/1.png "screenshot"
 
 ## Linux
 It is very likely that you already have Python installed with your system. To make sure (and check its version) open the console and enter the following command:
