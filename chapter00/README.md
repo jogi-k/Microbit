@@ -1,60 +1,60 @@
-# Instalacja
+# Installation
 
-Do warsztatów będziemy potrzebować wersji Pythona 3.4. Poniżej znajdują się wskazówki do tego, jak zainstalować środowisko oraz inne potrzebne narzędzia.
+We will need a version of Python 3.4 for the workshop. Below are instructions on how to install the environment and other necessary tools.
 
 ## Windows
 
-Możesz ściągnąć Pythona pod Windows [z tej strony](https://www.python.org/downloads/). Po pobraniu pliku `*.msi`, uruchom go (klikając dwukrotnie na niego) i postępuj według wyświetlanych instrukcji. Koniecznie zapamiętaj ścieżkę (katalog), w którym zainstalowałaś Pythona. Będzie Ci niebawem potrzebna!
+You can download Python for Windows [from this site] (https://www.python.org/downloads/). After downloading the `* .msi` file, launch it (double-click on it) and follow the instructions. Be sure to remember the path (directory) where you installed Python. It will be needed soon!
 
-Należy zwrócić uwagę na jedno: na drugiej stronie instalatora nazwanej "Customize" ("Dostosuj do potrzeb") przewiń na sam dół i wybierz "Add python.exe to the Path" ("Dodaj python.exe do ścieżki systemowej"), tak jak na poniższym obrazku:
+Pay attention to one thing: on the other side of the installer called "Customize" scroll down to the bottom and select "Add python.exe to the path", just like in the picture below:
 
-![zrzut ekranu][zrzut]
+![screenshot] [snapshot]
 
-[zrzut]: https://github.com/plpug/Microbit/raw/master/chapter00/img/1.png "zrzut ekranu"
+[snapshot]: img/1.png "screenshot"
 
 ## Linux
-Jest bardzo prawdopodobne, że masz już zainstalowanego Pythona wraz z systemem. Aby się upewnić (a także sprawdzić jego wersję) otwórz konsolę i wpisz następujące polecenie:
-```sh
+It is very likely that you already have Python installed with your system. To make sure (and check its version) open the console and enter the following command:
+`` Sh
 $ python3 --version
 Python 3.4.3
-```
-Nie masz Pythona? A może chciałbyś zainstalować inną jego wersje, w tej sytuacji skorzstaj z poniższych sposobów:
+`` `
+Do not have Python? Or maybe you would like to install another version of it, in this case do it the following ways:
 
-### Debian lub Ubuntu
+### Debian or Ubuntu
 
-Wpisz w konsoli poniższe polecenie:
-```sh
+Type the following command in the console:
+`` Sh
 $ sudo apt-get install python3.4
-```
+`` `
 
-### Fedora (do 21)
+### Fedora (up to 21)
 
-Użyj następującego polecenia w konsoli:
-```sh
+Use the following command in the console:
+`` Sh
 $ sudo yum install python3.4
-```
-### Fedora (22+)
+`` `
+Fedora (22+)
 
-Użyj następującego polecenia w konsoli:
-```sh
+Use the following command in the console:
+`` Sh
 $ sudo dnf install python3.4
-```
+`` `
 ### openSUSE
 
-Użyj następującego polecenia w konsoli:
-```sh
+Use the following command in the console:
+`` Sh
 $ sudo zypper install python3
-```
+`` `
 ### OS X
 
-Przejdź na stronę https://www.python.org/downloads/release/python-343/ i pobierz instalator Pythona:
+Go to https://www.python.org/downloads/release/python-343/ and download the Python installer:
 
-1. Pobierz plik o nazwie Mac OS X 64-bit/32-bit installer,
-2. Kliknij dwukrotnie na python-3.4.3-macosx10.6.pkg, by uruchomić instalator.
+1. Download a file named Mac OS X 64-bit / 32-bit installer,
+2. Double-click on python-3.4.3-macosx10.6.pkg to start the installer.
 
-Sprawdź, czy instalacja zakończyła się pomyślnie - otwórz aplikację Terminal i uruchom polecenie python3:
-```sh
+Make sure the installation is successful - open Terminal and run python3:
+`` Sh
 $ python3 --version
 Python 3.4.3
-```
-W razie jakichkolwiek wątpliwości albo jeśli coś poszło nie tak i nie wiesz, co dalej robić - po prostu zapytaj osobę prowadzącą kurs. Czasami nie wszystko idzie tak, jak powinno i najlepszym wyjściem z sytuacji jest poprosić o pomoc kogoś bardziej doświadczonego.
+`` `
+In case of any doubt or if something went wrong and you do not know what to do next - just ask the person who runs the course. Sometimes not everything goes as it should and the best way out of the situation is to ask for help from someone more experienced.
