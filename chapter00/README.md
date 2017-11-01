@@ -8,7 +8,7 @@ You can download Python for Windows [from this site] (https://www.python.org/dow
 
 Pay attention to one thing: on the other side of the installer called "Customize" scroll down to the bottom and select "Add python.exe to the path", just like in the picture below:
 
-![screenshot] (img/1.png) 
+![screenshot](img/1.png) 
 
 ## Linux
 It is very likely that you already have Python installed with your system. To make sure (and check its version) open the console and enter the following command:
